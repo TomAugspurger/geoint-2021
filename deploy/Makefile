@@ -19,8 +19,6 @@ cluster:
 		--nodepool-name core \
 		--nodepool-labels hub.jupyter.org/node-purpose=core
 	az aks get-credentials --name $(CLUSTER) --resource-group $(GROUP)
-
-userpool:
 	az aks nodepool add \
 	   --name users \
 	   --cluster-name $(CLUSTER) \
@@ -30,8 +28,6 @@ userpool:
 	   --min-count 0 --max-count 100 \
 	   --node-vm-size Standard_D8s_v3 \
 	   --labels hub.jupyter.org/node-purpose=user
-
-manualuserpool:
 	az aks nodepool add \
 	   --name manualusers \
 	   --cluster-name $(CLUSTER) \
@@ -39,8 +35,6 @@ manualuserpool:
 	   --node-count 0 \
 	   --node-vm-size Standard_D8s_v3 \
 	   --labels hub.jupyter.org/node-purpose=user
-
-workerpool:
 	az aks nodepool add \
 	   --name workers \
 	   --cluster-name $(CLUSTER) \
