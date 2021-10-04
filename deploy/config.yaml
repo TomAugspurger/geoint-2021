@@ -47,7 +47,7 @@ jupyterhub:
           command:
             [
               "/srv/conda/envs/notebook/bin/gitpuller",
-              "https://github.com/TomAugspurger/pc-geoint-2021",
+              "https://github.com/TomAugspurger/geoint-2021",
               "main",
               "workshop",
             ]
