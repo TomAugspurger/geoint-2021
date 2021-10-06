@@ -1,6 +1,6 @@
 # Planetary Computer @ GEOINT 2021
 
-### http://pc-geoint.westeurope.cloudapp.azure.com/hub
+### https://aka.ms/geoint-hub
 
 This repository contains the teaching materials for the Planetary Computer workshop at the [GEOINT 2021 symposium][geoint].
 
