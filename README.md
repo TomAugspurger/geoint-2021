@@ -8,8 +8,8 @@ These materials are automatically cloned into the [hub][hub] environment.
 
 ### Deployment
 
-This repository also contains the code to deploy the hub. See <deploy/README.md> for more.
+This repository also contains the code to deploy the hub. See [deploy](deploy/README.md) for more.
 
-[workshop]: https://usgif.org/event/geoint-2021-symposium/
+[geoint]: https://usgif.org/event/geoint-2021-symposium/
 [hub]: http://pc-geoint.westeurope.cloudapp.azure.com/hub
 
